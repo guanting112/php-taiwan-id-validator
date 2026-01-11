@@ -1,0 +1,28 @@
+{
+    "name": "guanting112/php-taiwan-id-validator",
+    "description": "Taiwan ID Validator (National ID, ARC, UBN) for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guanting",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TaiwanIdValidator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TaiwanIdValidator\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
